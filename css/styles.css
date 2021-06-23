@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* { 
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #140f40;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:#f10085;
+}
+button {
+
+    padding: 7px 15px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+
+}
+
+button:hover {
+
+    cursor: pointer
+    background-color: #ffff00;
+}
+
+.form {
+    margin: 90px 0px 20px 0px;
+}
+
+.time-input {
+    padding:10px 7px;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+}
+
+select[name='format']{
+    padding: 10px;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+    margin: 0px 10px;
+    background-color: #00ff44;
+}
+
+.set-btn {
+    background-color: #00eeff;
+    padding: 11px 20px;
+}
+
+.countdown {
+    font-size: 6.5rem;
+    margin-top: 20px;
+}
+
+.stop-btn {
+
+    padding: 10px 20px;
+    background-color: #ff6344;
+}
+.reset-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:#f6ff00;
+}
